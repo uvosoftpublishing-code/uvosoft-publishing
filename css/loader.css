@@ -1,0 +1,11 @@
+#route-loader{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:9999}
+#route-loader.active{display:flex}
+#route-loader .veil{position:absolute;inset:0;background:rgba(251,247,242,0.88);backdrop-filter:blur(16px)}
+#route-loader .panel{position:relative;width:min(560px,88vw);border-radius:28px;background:rgba(255,255,255,0.75);border:1px solid rgba(11,11,15,0.12);box-shadow:0 30px 90px rgba(11,11,15,0.14);overflow:hidden}
+#route-loader .bar{height:6px;width:100%;background:rgba(11,11,15,0.06)}
+#route-loader .bar>i{display:block;height:100%;width:40%;background:linear-gradient(90deg,var(--pink),var(--orange));border-radius:999px;animation:loader 1.2s ease-in-out infinite}
+#route-loader .body{padding:20px 22px 24px 22px;display:flex;gap:16px;align-items:flex-start}
+#route-loader .mark{width:54px;height:54px;border-radius:18px;border:1px solid rgba(11,11,15,0.12);background:linear-gradient(135deg, rgba(255,79,216,0.18), rgba(255,138,42,0.12));display:flex;align-items:center;justify-content:center}
+#route-loader .text strong{display:block;font-size:1rem}
+#route-loader .text span{display:block;color:rgba(11,11,15,0.6);margin-top:4px;font-size:.9rem}
+@keyframes loader{0%{transform:translateX(-70%)}50%{transform:translateX(60%)}100%{transform:translateX(160%)}}
