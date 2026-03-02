@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <radialGradient id="petal" cx="50%" cy="40%">
+      <stop offset="0" stop-color="#ff4fd8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff8a2a" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" stroke="#0b0b0f" stroke-opacity="0.3" stroke-width="2">
+    <path d="M300 120c30 30 35 70 0 110-35-40-30-80 0-110z" fill="url(#petal)"/>
+    <path d="M420 200c-5 42-38 67-90 65 20-50 53-72 90-65z" fill="url(#petal)"/>
+    <path d="M460 320c-30 30-70 35-110 0 40-35 80-30 110 0z" fill="url(#petal)"/>
+    <path d="M380 440c-42-5-67-38-65-90 50 20 72 53 65 90z" fill="url(#petal)"/>
+    <path d="M300 480c-30-30-35-70 0-110 35 40 30 80 0 110z" fill="url(#petal)"/>
+    <path d="M220 440c5-42 38-67 90-65-20 50-53 72-90 65z" fill="url(#petal)"/>
+    <path d="M180 320c30-30 70-35 110 0-40 35-80 30-110 0z" fill="url(#petal)"/>
+    <path d="M220 200c42 5 67 38 65 90-50-20-72-53-65-90z" fill="url(#petal)"/>
+  </g>
+  <circle cx="300" cy="300" r="26" fill="#0b0b0f" fill-opacity="0.08"/>
+</svg>
